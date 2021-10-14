@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Survey editor</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body>
+	<div id="surveyeditor">
+
+	</div>
+</body>
+<style>
+	html,
+	body {
+		position: relative;
+		width: 98%;
+		height: 88%;
+	}
+
+	main {
+		text-align: center;
+		padding: 5px;
+		max-width: 240px;
+		margin: 0 auto;
+	}
+
+	body {
+		color: rgb(194, 189, 189);
+		background-color: #1e1e1e;
+		margin: 2%;
+		padding: 8px;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+
+	label {
+		display: block;
+	}
+
+	input,
+	button,
+	select,
+	textarea {
+		font-family: inherit;
+		font-size: inherit;
+		-webkit-padding: 0.4em 0;
+		padding: 0.4em;
+		margin: 0 0 0.5em 0;
+		box-sizing: border-box;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+	}
+
+	input:disabled {
+		color: #ccc;
+	}
+
+	button {
+		color: #333;
+		background-color: #d1cdcd;
+		outline: none;
+		border-radius: 7px;
+	}
+
+	button:disabled {
+		color: #999;
+	}
+
+	button:not(:disabled):active {
+		background-color: #ddd;
+	}
+
+	button:focus {
+		border-color: #666;
+	}
+	.delete {
+		background-color: orange;
+		size: 12px;
+		vertical-align: bottom;
+	}
+</style>
+
+</html>

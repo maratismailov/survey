@@ -1,0 +1,40 @@
+{
+    "survey_id": "second_id",
+    "name": "второй шаблон",
+    "survey_body": [
+        {
+            "id": "woodgroup 3",
+            "name": "группа 3",
+            "type": "select",
+            "value": "",
+            "fields": [],
+            "select": {
+                "table_name": "woodspecies",
+                "name_column": "woodname_ru",
+                "where_clause": "where woodgroup_id = 3",
+                "id_column": "woodspecies_id"
+            }
+        },
+        {
+            "id": "woodgroup 2",
+            "name": "группа 2",
+            "type": "select",
+            "value": "",
+            "fields": [],
+            "select": {
+                "table_name": "woodspecies",
+                "name_column": "woodname_ru",
+                "where_clause": "where woodgroup_id = 2",
+                "id_column": "woodspecies_id"
+            }
+        },
+        {
+            "id": "text",
+            "name": "text input",
+            "type": "text",
+            "value": "",
+            "fields": [],
+            "select": {}
+        }
+    ]
+}
